@@ -1,0 +1,201 @@
+utility_component_template = {
+	key = "MOAR_SCIENCE_AGGRESSIVE_BASIC"
+	size = medium
+	icon = "GFX_ship_part_moar_aggressive_basic"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	component_set = "science_labs"
+	class_restriction = { shipclass_science_ship }
+	prerequisites = { "tech_combat_computers_1" }
+
+	science_lab_speed = 1
+	science_lab_level = 1
+
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 0.1
+		ship_ftl_warp_range_mult = 0.2
+		ship_interstellar_speed_mult = 0.1
+		ship_winddown_mult = -0.1
+		ship_windup_mult = -0.1
+		science_ship_survey_speed = 0.05
+	}
+
+	modifier = {
+		ship_evasion_add = 20
+		ship_combat_speed_mult = 0.20
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "MOAR_SCIENCE_AGGRESSIVE_ADVANCED"
+	size = medium
+	icon = "GFX_ship_part_moar_aggressive_adv"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	component_set = "science_labs"
+	class_restriction = { shipclass_science_ship }
+	prerequisites = { "tech_combat_computers_2" }
+
+	science_lab_speed = 1
+	science_lab_level = 1
+
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 0.2
+		ship_ftl_warp_range_mult = 0.4
+		ship_interstellar_speed_mult = 0.2
+		ship_winddown_mult = -0.2
+		ship_windup_mult = -0.2
+		science_ship_survey_speed = 0.10
+	}
+
+	modifier = {
+		ship_evasion_add = 30
+		ship_combat_speed_mult = 0.30
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "MOAR_SCIENCE_DEFENSIVE_BASIC"
+	size = medium
+	icon = "GFX_ship_part_moar_defensive_basic"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	component_set = "science_labs"
+	class_restriction = { shipclass_science_ship }
+	prerequisites = { "tech_combat_computers_1" }
+
+	science_lab_speed = 1
+	science_lab_level = 1
+
+	ship_modifier = {
+		ship_sensor_range_mult = 1.2
+	}
+	armor_value = 10
+
+	ship_modifier = {
+		ship_anomaly_fail_risk = -0.025
+		ship_anomaly_generation_chance_mult = 0.05
+		ship_anomaly_research_speed_mult = 0.10
+	}
+
+	modifier = {
+		ship_speed_mult = 0.20
+	}
+
+	ai_weight = {
+		weight = 70
+	}
+}
+
+utility_component_template = {
+	key = "MOAR_SCIENCE_DEFENSIVE_ADVANCED"
+	size = medium
+	icon = "GFX_ship_part_moar_defensive_adv"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	component_set = "science_labs"
+	class_restriction = { shipclass_science_ship }
+	prerequisites = { "tech_combat_computers_2" }
+
+	science_lab_speed = 1
+	science_lab_level = 1
+
+	ship_modifier = {
+		ship_sensor_range_mult = 1.4
+	}
+	armor_value = 20
+
+	ship_modifier = {
+		ship_anomaly_fail_risk = -0.075
+		ship_anomaly_generation_chance_mult = 0.07
+		ship_anomaly_research_speed_mult = 0.15
+	}
+
+	modifier = {
+		ship_speed_mult = 0.30
+	}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+
+utility_component_template = {
+	key = "MOAR_SCIENCE_SENTIENT"
+	size = medium
+	icon = "GFX_ship_part_moar_sentient"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	component_set = "science_labs"
+	class_restriction = { shipclass_science_ship }
+	prerequisites = { "tech_combat_computers_3" }
+
+	science_lab_speed = 1
+	science_lab_level = 1
+
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 0.3
+		ship_ftl_warp_range_mult = 0.8
+		ship_interstellar_speed_mult = 0.4
+		ship_winddown_mult = -0.4
+		ship_windup_mult = -0.4
+		science_ship_survey_speed = 0.15
+	}
+
+	modifier = {
+		ship_evasion_add = 40
+		ship_combat_speed_mult = 0.40
+	}
+
+	ai_weight = {
+		weight = 150
+	}
+}
+
+utility_component_template = {
+	key = "MOAR_SCIENCE_PRECOG"
+	size = medium
+	icon = "GFX_ship_part_moar_precog"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	component_set = "science_labs"
+	class_restriction = { shipclass_science_ship }
+	prerequisites = { "tech_precognition_interface" }
+
+	science_lab_speed = 1
+	science_lab_level = 1
+
+	ship_modifier = {
+		ship_sensor_range_mult = 1.6
+	}
+	armor_value = 30
+
+	ship_modifier = {
+		ship_anomaly_fail_risk = -0.125
+		ship_anomaly_generation_chance_mult = 0.10
+		ship_anomaly_research_speed_mult = 0.20
+	}
+
+	modifier = {
+		ship_speed_mult = 0.40
+	}
+
+	ai_weight = {
+		weight = 150
+	}
+}

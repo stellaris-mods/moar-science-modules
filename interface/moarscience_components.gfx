@@ -1,0 +1,26 @@
+spriteTypes{
+	spriteType = {
+		name = "GFX_ship_part_moar_aggressive_basic"
+		texturefile = "gfx/interface/icons/ship_parts/ship_science_aggressive_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_moar_aggressive_adv"
+		texturefile = "gfx/interface/icons/ship_parts/ship_science_aggressive_advanced.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_moar_defensive_basic"
+		texturefile = "gfx/interface/icons/ship_parts/ship_science_defensive_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_moar_defensive_adv"
+		texturefile = "gfx/interface/icons/ship_parts/ship_science_defensive_advanced.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_moar_precog"
+		texturefile = "gfx/interface/icons/ship_parts/ship_science_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_moar_sentient"
+		texturefile = "gfx/interface/icons/ship_parts/ship_science_sentient.dds"
+	}
+}
