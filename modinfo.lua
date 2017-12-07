@@ -4,7 +4,7 @@ return {
 	name = "Moar Science! (ship modules)",
 	tags = { "Gameplay", "Spaceships" },
 	picture = "thumb.png",
-	supported_version = "1.8.*",
+	supported_version = "1.9.*",
 	remote_file_id = 785719197,
 	readme = "readme.md",
 	steambb = "steam.bbcode",

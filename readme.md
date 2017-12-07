@@ -1,3 +1,7 @@
+# Moar Science!
+
+Indiana Jones pixel art used in tech icons copied from http://piq.codeus.net/picture/78234/indiana_jones under CC-BY-3.0 license.
+
 # Steam description
 
 [//]: # (start)

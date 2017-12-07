@@ -17,3 +17,9 @@ MOAR_SCIENCE_SENTIENT_DESC: "After locating a cache of shiny storage discs and s
 
 MOAR_SCIENCE_PRECOG: "Sentient Archeology Lab"
 MOAR_SCIENCE_PRECOG_DESC: "Not everyone agrees that allowing whatever continuous, stable, free-flowing electrical current escaped when we unearthed that old temple - some would say doomed temple, or evil temple - inhabit our archeology laboratory is a good idea.\n\nBut what could go wrong? It's not like we're planning to crash into mountains."
+
+tech_moarscience_sapient: "Exploration Laboratory"
+tech_moarscience_sapient_desc: "Unlocks a powerful new science laboratory for our science ships."
+
+tech_moarscience_precog: "Archeology Laboratory"
+tech_moarscience_precog_desc: "Unlocks a powerful new science laboratory for our science ships."

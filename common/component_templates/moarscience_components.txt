@@ -1,3 +1,23 @@
+###
+# This file is part of a project hosted at https://github.com/stellaris-mods
+# Copyright (c) 2017 folk@folk.wtf
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software Foundation,
+# Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+###
+
+
 utility_component_template = {
 	key = "MOAR_SCIENCE_AGGRESSIVE_BASIC"
 	size = medium
@@ -142,7 +162,7 @@ utility_component_template = {
 	cost = 0
 	component_set = "science_labs"
 	class_restriction = { shipclass_science_ship }
-	prerequisites = { "tech_combat_computers_3" }
+	prerequisites = { "tech_moarscience_sapient" }
 
 	science_lab_speed = 1
 	science_lab_level = 1
@@ -175,7 +195,7 @@ utility_component_template = {
 	cost = 0
 	component_set = "science_labs"
 	class_restriction = { shipclass_science_ship }
-	prerequisites = { "tech_precognition_interface" }
+	prerequisites = { "tech_moarscience_precog" }
 
 	science_lab_speed = 1
 	science_lab_level = 1

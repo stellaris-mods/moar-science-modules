@@ -1,0 +1,123 @@
+###
+# This file is part of a project hosted at https://github.com/stellaris-mods
+# Copyright (c) 2017 folk@folk.wtf
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software Foundation,
+# Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+###
+
+
+tech_moarscience_sapient = {
+	area = physics
+	tier = 3
+	cost = 3000
+	category = { computing }
+	is_rare = yes
+	prerequisites = { "tech_combat_computers_2" "tech_self_aware_logic" }
+	weight = 45
+
+	modifier = {
+		all_technology_research_speed = 0.03
+	}
+
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0.20
+			NOR = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_maniacal"
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+				has_level > 2
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}
+
+tech_moarscience_precog = {
+	area = physics
+	tier = 3
+	cost = 3000
+	category = { computing }
+	is_rare = yes
+	prerequisites = { "tech_combat_computers_2" "tech_synthetic_thought_patterns" }
+	weight = 45
+
+	modifier = {
+		all_technology_research_speed = 0.03
+	}
+
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0.20
+			NOR = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_maniacal"
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+				has_level > 2
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}
