@@ -24,7 +24,7 @@ tech_moarscience_sapient = {
 	cost = 3000
 	category = { computing }
 	is_rare = yes
-	prerequisites = { "tech_combat_computers_2" "tech_self_aware_logic" }
+	prerequisites = { "tech_combat_computers_2" "tech_cryostasis_2" }
 	weight = 45
 
 	modifier = {

@@ -23,3 +23,6 @@ tech_moarscience_sapient_desc: "Unlocks a powerful new science laboratory for ou
 
 tech_moarscience_precog: "Archeology Laboratory"
 tech_moarscience_precog_desc: "Unlocks a powerful new science laboratory for our science ships."
+
+science_labs: "$SCIENCE_LAB_1$"
+science_labs_DESC: "$MEDIUM_SCIENCE_LAB_1_DESC$"
