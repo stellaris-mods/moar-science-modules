@@ -20,12 +20,12 @@
 
 tech_moarscience_sapient = {
 	area = physics
-	tier = 3
-	cost = 3000
+	tier = 2
+	cost = 1400
 	category = { computing }
 	is_rare = yes
-	prerequisites = { "tech_combat_computers_2" "tech_cryostasis_2" }
-	weight = 45
+	prerequisites = { "tech_combat_computers_1" "tech_cryostasis_1" }
+	weight = 65
 
 	modifier = {
 		all_technology_research_speed = 0.03
@@ -72,12 +72,12 @@ tech_moarscience_sapient = {
 
 tech_moarscience_precog = {
 	area = physics
-	tier = 3
-	cost = 3000
+	tier = 2
+	cost = 1400
 	category = { computing }
 	is_rare = yes
-	prerequisites = { "tech_combat_computers_2" "tech_synthetic_thought_patterns" }
-	weight = 45
+	prerequisites = { "tech_combat_computers_1" "tech_artificial_moral_codes" }
+	weight = 65
 
 	modifier = {
 		all_technology_research_speed = 0.03
